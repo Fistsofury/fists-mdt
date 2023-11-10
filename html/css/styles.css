@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'FrederickatheGreat';
+    src: url('../css/fonts/FrederickatheGreat-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+
+}
+
+#mdt-container {
+    background-image: url('../css/Partchment_bk.jpg');
+    background-size: cover;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(97, 80, 80, 0.8); /* Darker overlay for better readability */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #8b4513; /* Dark brown border */
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'FrederickatheGreat', cursive;
+    color: #8b4513; /* Dark brown color for headers */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #5c0000; /* Dark red color for labels */
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #987856; /* Earthy tone border */
+    border-radius: 4px;
+    background-color: #fffaf0; /* Off-white background for inputs */
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #5c0000; /* Dark red background for buttons */
+    color: white;
+    border: 1px solid #8b4513; /* Dark brown border */
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-group button:hover {
+    background-color: #8b4513; /* Dark brown on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #mdt-container {
+        width: 95%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav button {
+        margin-bottom: 10px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-group input[type="text"],
+    .form-group input[type="number"],
+    .form-group select,
+    .form-group textarea {
+        padding: 8px;
+    }
+
+    .form-group button {
+        padding: 8px 16px;
+    }
+}
