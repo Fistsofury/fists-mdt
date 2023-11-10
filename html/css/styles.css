@@ -14,16 +14,16 @@ body {
     position: relative;
     width: 80%;
     margin: 0 auto;
-    background-color: rgba(97, 80, 80, 0.8); /* Darker overlay for better readability */
+    background-color: rgba(97, 80, 80, 0.8); 
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #8b4513; /* Dark brown border */
+    border: 1px solid #8b4513; 
 }
 
 header h1 {
     text-align: center;
     font-family: 'FrederickatheGreat', cursive;
-    color: #8b4513; /* Dark brown color for headers */
+    color: #8b4513; 
 }
 
 nav {
@@ -45,7 +45,7 @@ form {
 
 .form-group label {
     margin-bottom: 5px;
-    color: #5c0000; /* Dark red color for labels */
+    color: #5c0000; 
 }
 
 .form-group input[type="text"],
@@ -53,23 +53,23 @@ form {
 .form-group select,
 .form-group textarea {
     padding: 10px;
-    border: 1px solid #987856; /* Earthy tone border */
+    border: 1px solid #987856; 
     border-radius: 4px;
-    background-color: #fffaf0; /* Off-white background for inputs */
+    background-color: #fffaf0; 
 }
 
 .form-group button {
     padding: 10px 20px;
-    background-color: #5c0000; /* Dark red background for buttons */
+    background-color: #5c0000; 
     color: white;
-    border: 1px solid #8b4513; /* Dark brown border */
+    border: 1px solid #8b4513; 
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
 }
 
 .form-group button:hover {
-    background-color: #8b4513; /* Dark brown on hover */
+    background-color: #8b4513; 
 }
 
 /* Responsive Design */

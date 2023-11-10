@@ -17,8 +17,8 @@ shared_scripts {
 files {
     'html/index.html',
     'html/css/styles.css',
-    'html/js/index.js'
- --   'html/css/Partchment_bk.jpg'
+    'html/js/index.js',
+    'html/css/Partchment_bk.jpg'
 }
 
 ui_page 'html/index.html'

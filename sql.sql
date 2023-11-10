@@ -10,9 +10,8 @@ CREATE TABLE IF NOT EXISTS `mdt_data` (
     `suggested_fine` DECIMAL(10, 2) NOT NULL,
     `suggested_sentence` INT NOT NULL,
     `status` ENUM('open', 'closed', 'cancelled') NOT NULL,
+    `picture_url` TEXT,  -- New column for Imgur picture links
     `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
